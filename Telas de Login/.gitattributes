@@ -1,1 +1,4 @@
-*.flutter linguist-detectable=true
+android/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+web/* linguist-vendored
