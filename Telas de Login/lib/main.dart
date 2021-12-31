@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'package:tela_login_1/padrao_cores.dart';
 
 import 'LoginPage.dart';
 
@@ -41,19 +42,23 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      body: SplashScreen(
-        seconds: 5,
-        styleTextUnderTheLoader: TextStyle(),
-        loadingText: Text("Login...",style: TextStyle(color: Colors.white),),
+      body: Container(
+        child: Center(
+          child: SplashScreen(
+            seconds: 5,
+            styleTextUnderTheLoader: TextStyle(),
+            loadingText: Text("Login...",style: TextStyle(color: PadraoCores.gradiente1),),
 
-        navigateAfterSeconds: LoginPage(),
-        backgroundColor: Color.fromARGB(255, 80, 184, 72),
-
-
-        loaderColor: Color.fromARGB(255, 214, 224, 64),
-
+            navigateAfterSeconds: LoginPage(),
+            backgroundColor: PadraoCores.splascreen,
 
 
+            loaderColor: PadraoCores.gradiente1
+
+
+
+          ),
+        ),
       ),
     );
   }
