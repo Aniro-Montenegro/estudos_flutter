@@ -2,3 +2,11 @@ android/* linguist-vendored
 ios/* linguist-vendored
 windows/* linguist-vendored
 web/* linguist-vendored
+*.cpp linguist-language=Dart
+*.txt linguist-language=Dart
+*.cmake linguist-language=Dart
+*.kt linguist-language=Dart
+*.h linguist-language=Dart
+*.kt linguist-language=Dart
+
+*.dart linguist-detectable=true
