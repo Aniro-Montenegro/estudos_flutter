@@ -7,6 +7,6 @@ web/* linguist-vendored
 *.cmake linguist-language=Dart
 *.kt linguist-language=Dart
 *.h linguist-language=Dart
-*.kt linguist-language=Dart
+*.swift linguist-language=Dart
 
 *.dart linguist-detectable=true
