@@ -1,16 +1,11 @@
 # tela_login_1
 
-A new Flutter project.
+Projeto de layout de tela de login
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+<div>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   <img height="180em" src="https://github.com/Aniro-Montenegro/estudos_flutter/blob/main/Telas%20de%20Login/tela_img/WhatsApp%20Image%202022-01-07%20at%2000.26.08.jpeg"/>
+   
+</div>.
