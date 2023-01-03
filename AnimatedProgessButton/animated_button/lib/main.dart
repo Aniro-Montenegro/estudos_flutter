@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
               duration: Duration(milliseconds: 300),
               curve: Curves.easeIn,
               child: isStredched ? buildButton() : buildSmallButton(isDone),
-            )
+            ),
           ],
         ));
   }
